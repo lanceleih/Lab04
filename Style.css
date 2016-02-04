@@ -15,34 +15,30 @@
         } 
     #leftcol {
         float:  left;
-        width: 300px;
-        top: 0;
-        right: 0;
         width: 380px;
         border-right: 1px soft #E4D6B9;
-        width: 300px;
     }
     #wrapper {
         background-color: #ffffff;
-        
-        border-style: solid;
         margin: 20px 50px;
-        width: 150px;
-        height: 175px;
+        width: 300px;
+        height: 220px;
     }
-    #wrapper ul{
-        
-        list-style-image: url('arrow.gif');
-
-        
+    #wrapper ul{ 
+        list-style-image: url("starterImages/arrow.gif");  
     }
+#wrapper ul li {
+        padding: 10px 0px;
+        border-bottom: 3px solid #62503B;
+}
 #content {
         text-align: center;
-        margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
 }
     #rightcol {
         float: left;
-        width: 600px;
+        width: 800px;
         top: 0;
     }
     #rightcol h2 {
