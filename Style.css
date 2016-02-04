@@ -38,6 +38,7 @@
     }
 #content {
         text-align: center;
+        margin: auto;
 }
     #rightcol {
         float: left;
@@ -55,7 +56,7 @@
     #rightcol p {
         color: #62503B;
     }
-    #footer {
+    footer {
         clear: both;
     }
         
