@@ -28,8 +28,11 @@
         list-style-image: url("starterImages/arrow.gif");  
     }
 #wrapper ul li {
+        text-align: left;
         padding: 10px 0px;
-        border-bottom: 3px solid #62503B;
+        border-bottom: 1px solid #62503B;
+        color: #006699;
+        font-weight: bold;
 }
 #content {
         text-align: center;
@@ -54,6 +57,9 @@
     }
     footer {
         clear: both;
+        background-color: #E4D6B9;
+        text-align: center;
+        padding: 30px 0px;
     }
         
         
