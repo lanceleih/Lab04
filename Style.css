@@ -12,13 +12,9 @@
         }
         img {
         padding: 20px 0px 10px 20px;  
-        }
-    #main {
-        ;
-    }
-    
+        } 
     #leftcol {
-        float: left;
+        float:  left;
         width: 300px;
         top: 0;
         right: 0;
@@ -40,11 +36,13 @@
 
         
     }
+#content {
+        text-align: center;
+}
     #rightcol {
         float: left;
+        width: 600px;
         top: 0;
-        left
-  
     }
     #rightcol h2 {
         color: #006699;
@@ -57,13 +55,8 @@
     #rightcol p {
         color: #62503B;
     }
-    
-    #rightcol img {
-        
-    }
-    
     #footer {
-        clear: left;
+        clear: both;
     }
         
         
