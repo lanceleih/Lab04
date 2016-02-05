@@ -20,11 +20,12 @@
     }
     #wrapper {
         background-color: #ffffff;
-        margin: 20px 50px;
-        width: 300px;
+        margin: 20px 100px;
+        width: 200px;
         height: 220px;
         padding: 0px 30px 0px 0px;
-        background-color: rgba(230, 217, 169, 0.98); 
+        background-color: #fcf7f3;
+        box-shadow: 5px 5px 5px #EDE8D4;
     }
 #wrapper ul li {
         text-align: left;
@@ -33,6 +34,9 @@
         color: #006699;
         font-weight: bold;
         list-style-image: url("starterImages/arrow.gif"); 
+}
+#wrapper ul li:nth-last-child(1) {
+       border-bottom: 1px none #fcf7f3; 
 }
 #content {
         text-align: center;
