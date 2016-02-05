@@ -44,18 +44,29 @@
         text-align: center;
         width:  760px;
         margin: auto;
+        padding: 30px;
 }
     #rightcol {
         float: left;
         width: 500px;
         top: 0;
-        padding: 10px 10px;
+        padding: 10px;
         border-left: 1px solid #E4D6B9;
     }
     #rightcol h2, h3 {
         text-align: left;
         color: #006699;
     }
+h3 {
+        background-image: url("starterImages/h2.gif");
+        background-repeat: no-repeat;
+}
+.heading {
+        padding-left: 30px;
+}
+.heading1 {
+        padding-left: 70px;
+}
     #rightcol p {
         color: #62503B;
     }
@@ -64,13 +75,22 @@
         background-color: #E4D6B9;
         text-align: center;
         padding: 30px 0px;
+        margin-top: 30px;
     }
 h1 {
-        display: inline;
-        padding-left: 10%;
+        margin-top: 0px;
         font-size: 2em;
+        background-image: url(starterImages/logo.gif);
+        background-repeat: no-repeat;
+        background-position: 10px 10px;
+        padding-top: 1%;
 }
-        
+h3 img {
+        padding-right: 10px;
+}
+header {
+       padding: 30px 100px;
+}       
         
         
         
