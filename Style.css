@@ -2,25 +2,39 @@
 body {
         background-color: #F6F1DE;
         font-family: sans-serif;
+        /* This sets the whole background color of the webpage
+        with the main font.*/
         }
         header {
         background-color: #006699;
         color: #ffffff;
         padding-bottom: 20px;
+        /* The above contains the background colour of the header
+        along with the colour of the font, which is white or #ffffff.
+        The padding is set to 20px to create a space between the
+        h1 and the bottom of the header.*/
         }
         img {
-        padding: 20px 0px 10px 20px;  
+        padding: 20px 0px 10px 20px; 
+        /* This is the logo with its designated padding. The following
+        numbers should be read as top, right, bottom and left.*/ 
         }
 #head {
         position: fixed;
         border-top: 5px solid #6699cc;
         width: 100%;
         z-index: 1;
+        /* This makes a header stay fixed on the screen even when you 
+        are scrolling the page downward. The z-index is used here as 
+        the position of it is fixed. Z-index makes sure that the header
+        is always in front of an element with a lower stack order.*/
 }
 #leftcol {
         float:  left;
         padding-right: 10px;
         width: 210px;
+        /* Left column is floating to the left with a padding of 10px 
+        to its right to give it space between the right column.*/
     }
 #wrapper {
         position: relative;
@@ -33,17 +47,25 @@ body {
         padding: 0px 30px 0px 0px;
         background-color: #fcf7f3;
         box-shadow: 5px 5px 5px #EDE8D4;
+        /*Box shadow is for the navigation bar. Not the image.*/
     }
 #wrapper ul li {
         text-align: left;
         padding: 10px;
         border-bottom: 1px solid #62503B;
+        /* Border-bottom property acts as the line that separates
+        each <li> tag from the other.*/
         color: #006699;
         font-weight: bold;
-        list-style-image: url("starterImages/arrow.gif"); 
+        list-style-image: url("starterImages/arrow.gif");
+        /* The list-style-image property changes the default circle
+        bullet point into the image that we want it to be, which in
+        this case is our arrow image.*/ 
 }
 #wrapper ul li:nth-last-child(1) {
-       border-bottom: 1px none #fcf7f3; 
+       border-bottom: 1px none #fcf7f3;
+       /* We set the border-bottom for the last child to be none to
+       'erase' it for design purposes.*/ 
 }
 #content {
         text-align: center;
@@ -51,41 +73,61 @@ body {
         margin: auto;
         padding: 30px;
         padding-bottom: 30px;
+        /* This sets both the div right and left columns to the center
+        with the specified width (760px). The padding bottom is set to
+        30px to give space for the footer. */
 }
 #body {
         position: relative;
         top: 150px;
+        /* This moves all the whole body 150px down relative to where it
+        would usually be.*/
 }
 #rightcol {
         float: left;
+        /* This lets the left column stay on the right column's left side.*/
         width: 500px;
         top: 0;
         padding: 10px;
         border-left: 1px solid #E4D6B9;
+        /* This border is the brown line you see dividin both the left
+        and right column in the page.*/
     }
 #rightcol h2, h3 {
         text-align: left;
         color: #006699;
+        /* This sets both the headings in the right column to be aligned
+        to the left with the hex color of #006699.*/
     }
 h3 {
         background-image: url("starterImages/h2.gif");
         background-repeat: no-repeat;
+        /* This is the image logo for the h3 headings in the right column.*/
 }
 .heading {
         padding-left: 30px;
+        /* This sets the class of 'heading' to have a padding set 30px to its
+        left. The class heading is the Section Headings of the right column.*/
 }
 .heading1 {
         padding-left: 70px;
+        /* Heading1 class is the header that says 'Company name' with its logo.
+        This gives them 70px of space to their left.*/
+        
 }
 #rightcol p {
         color: #62503B;
+        /* All the paragraph tags in the right column are given this font
+        colour.*/
     }
 footer {
         clear: both;
+        /* Makes sure there no other floating elements on both of the footer's sides.*/
         background-color: #E4D6B9;
         text-align: center;
         padding: 30px 0px;
         margin-top: 30px;
+        /*This gives 30px of space between the footer and the right column.*/
     }
 h1 {
         margin-top: 0px;
@@ -93,13 +135,18 @@ h1 {
         background-image: url(starterImages/logo.gif);
         background-repeat: no-repeat;
         background-position: 10px 10px;
+        /* This is for the logo located beside the Company Name. We used the
+        logo.gif image and set it so it only shows once.*/
         padding-top: 1%;
 }
 h3 img {
         padding-right: 10px;
+        /* This sets the section heading logos with 10px of space to its right.*/
 }
 header {
        padding: 30px 100px;
+       /* This gives the logo and the Company Name space of 30px from the top and
+       100px to its right.*/
 }    
         
         
